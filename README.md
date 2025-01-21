@@ -46,43 +46,51 @@ blaaaaaa
 1. **Larvae and system preperation**\
 For the most accurate results, make sure the sample and the system itself are as clean as possible.
 
-   2. Collect larvae using 30-mesh strainer and transfer to a 0.5L tray.
-   3. Use light treatment to move larvae to the edge of the tray so the larvae are separated from debris (remnants of food and eggs).
-   4. Collect larvae that congregate at the edge of the tray and run another light treatment.
-   5. After collecting the majority of the larvae in the tray, kill the rest of the larvae left in the tray (which should be a negligible amount compared to the number of larvae hatched).
-   6. Before putting larvae into the bottle, make sure that the bottle is clean from larvae or debris. Add lukewarm water to the bottle, and then the larvae. Do not fill the bottle above the marked line.
-   >
-   >Larvae density should be around 80,000 larvae per liter of water.
+   1. Collect larvae using 30-mesh strainer and transfer to a 0.5L tray.
+   2. Use light treatment to move larvae to the edge of the tray so the larvae are separated from debris (remnants of food and eggs).
+   3. Collect larvae that congregate at the edge of the tray and run another light treatment.
+   4. After collecting the majority of the larvae in the tray, kill the rest of the larvae left in the tray (which should be a negligible amount compared to the number of larvae hatched).
+   5. Before putting larvae into the bottle, make sure that the bottle is clean from larvae or debris. Add lukewarm water to the bottle, and then the larvae. Do not fill the bottle above the marked line.
+   
+   > 
+   > Larvae density should be around 80,000 larvae per liter of water.
+   
    6. Place the collecting cup.
    7. Connect the bottle to the system, make sure it is closed tightly.
    
 <br>
 
 2. **Aliquoting**
+
    1. Open the LarvaeDispenser program (double-click the icon on the desktop).\
    Upon startup, the bottle will be pressurised and initial calibration will take place - the **calibration** buttom will show green while calibration is still ongoing.
+   
    <br>
    <img src="docs/images/photos/gui/0_start_up.png?raw=true" height="500" align="center" alt="">
    <br>
-   2. Set the **Target #Larvae**
-   3. Press **Start**. The system will begin running larvae from the bottle to the cup and automatically stop when it reaches the target number. The **Start** button will show green while the system is running (i.e. counting), and the live count is updated simultaneously. You may also press the **Stop** button at any time during the run, if need be.\
+   
+   3. Set the **Target #Larvae**
+   4. Press **Start**. The system will begin running larvae from the bottle to the cup and automatically stop when it reaches the target number. The **Start** button will show green while the system is running (i.e. counting), and the live count is updated simultaneously. You may also press the **Stop** button at any time during the run, if need be.\
    <br>
    <img src="docs/images/photos/gui/2_start.png?raw=true" height="500" align="center" alt="">
    <br>
-   4. Once finished, the plot will be updated with a **histogram of the events' signal magnitudes**. The legend depicts different runs by their initiation timestamps.\
+   5. Once finished, the plot will be updated with a **histogram of the events' signal magnitudes**. The legend depicts different runs by their initiation timestamps.\
    Below, for example, a screenshot of the program after two runs, the most recent one in blue.\
    <br>
    <img src="docs/images/photos/gui/3_finished_count.png?raw=true" height="500" align="center" alt="">
    <br>
-   5. Set the **sensitivity threshold**, and press **Apply New Threshold** to get a new reading of the total updated count. The higher the threshold, more events will be included in the count. Lowering it correctly can remove noise.\
+   6. Set the **sensitivity threshold**, and press **Apply New Threshold** to get a new reading of the total updated count. The higher the threshold, more events will be included in the count. Lowering it correctly can remove noise.\
    In the example below, resetting the threshold to *0.75* updated the count to 918. 
+   
    <br>
    <img src="docs/images/photos/gui/4_sensitivity_th_moved.png?raw=true" height="500" align="center" alt="">
    <br>
+   
    > 
    > A good rule of thumb is to set the sensitivity threshold to one of the first minimas from the right. This removes noise, basically events caused by remaining debris.
-   8. Make sure the bottle doesn’t run out of water and does not reach the bottom line marked on the bottle.
-   9. Once you reach the end of the larvae, you can add water to the bottle (see below, in *Notes*, how to open the bottle) which will dilute the density of the larvae but will allow you to continue counting them without reaching the bottom line of the bottle.
+   
+   9. Make sure the bottle doesn’t run out of water and does not reach the bottom line marked on the bottle.
+   10. Once you reach the end of the larvae, you can add water to the bottle (see below, in *Notes*, how to open the bottle) which will dilute the density of the larvae but will allow you to continue counting them without reaching the bottom line of the bottle.
 
 <br/>
 
