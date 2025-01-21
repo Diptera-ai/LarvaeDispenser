@@ -52,6 +52,8 @@ For the most accurate results, make sure the sample and the system itself are as
    4. After collecting the majority of the larvae in the tray, kill the rest of the larvae left in the tray (which should be a negligible amount compared to the number of larvae hatched).
    5. Before putting larvae into the bottle, make sure that the bottle is clean from larvae or debris. Add lukewarm water to the bottle, and then the larvae. Do not fill the bottle above the marked line.
    
+   <br/>
+   
    > 
    > Larvae density should be around 80,000 larvae per liter of water.
    
@@ -67,30 +69,31 @@ For the most accurate results, make sure the sample and the system itself are as
    
    <br>
    <img src="docs/images/photos/gui/0_start_up.png?raw=true" height="500" align="center" alt="">
-   <br/>
+   <br>
    
    2. Set the **Target #Larvae**
    3. Press **Start**. The system will begin running larvae from the bottle to the cup and automatically stop when it reaches the target number. The **Start** button will show green while the system is running (i.e. counting), and the live count is updated simultaneously. You may also press the **Stop** button at any time during the run, if need be.\
    
    <br>
    <img src="docs/images/photos/gui/2_start.png?raw=true" height="500" align="center" alt="">
-   <br/>
+   <br>
    
    4. Once finished, the plot will be updated with a **histogram of the events' signal magnitudes**. The legend depicts different runs by their initiation timestamps.\
    Below, for example, a screenshot of the program after two runs, the most recent one in blue.
    
    <br>
    <img src="docs/images/photos/gui/3_finished_count.png?raw=true" height="500" align="center" alt="">
-   <br/>
+   <br>
    
    5. Set the **sensitivity threshold**, and press **Apply New Threshold** to get a new reading of the total updated count. The higher the threshold, more events will be included in the count. Lowering it correctly can remove noise.\
    In the example below, resetting the threshold to *0.75* updated the count to 918. 
    
    <br>
    <img src="docs/images/photos/gui/4_sensitivity_th_moved.png?raw=true" height="500" align="center" alt="">
-   <br/>
-   
-   > 
+   <br>
+   <br>
+    
+   >
    > A good rule of thumb is to set the sensitivity threshold to one of the first minimas from the right. This removes noise, basically events caused by remaining debris.
    
    9. Make sure the bottle doesn’t run out of water and does not reach the bottom line marked on the bottle.
