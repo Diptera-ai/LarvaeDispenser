@@ -1,26 +1,6 @@
-<img src="docs/images/logo/Diptera_logo_small.png?raw=true" height="50" align="right" alt="">
-![Alt text](relative%docs/images/logo/Diptera_logo_small.png?raw=true "Title")
-
-# Diptera.ai Larvae Dispenser
-
-Python implementation of Diptera.ai's [sorting unit], designed for Nvidia's Jetson Nano.
-
-[comment]: <> (<h1 align="center"> Diptera_Jetson </h1>)
-
-[comment]: <> (<p align="center">)
-
-[comment]: <> (  Python implementation of Diptera.ai's [sorting unit], <br>)
-
-[comment]: <> (  designed for Nvidia's Jetson Nano.)
-
-[comment]: <> (</p>)
-
-[comment]: <> (<p align="center">)
-
-[comment]: <> (  <img src="docs/Diptera_logo.svg?raw=true" height="60">)
-
-[comment]: <> (</p>)
-
+# Larvae Dispenser <img src="docs/images/logo/Diptera_logo_small.png?raw=true" height="50" align="right" alt="">
+ 
+Diptera.ai's larvae dispenser was developed to achieve fast and reliable mosquito larvae aliqouting.
 
 <br/>
 
@@ -42,7 +22,9 @@ Python implementation of Diptera.ai's [sorting unit], designed for Nvidia's Jets
 
 [sorting unit]:https://miro.com/app/board/o9J_l2clY7A=/ 
 
-## API reference
+## Machine parts
+
+<img src="docs/images/photos/machine_v1.jpg?raw=true" height="500" align="center" alt="">
 
 Following is a (very brief and **very partial**) description of all major players in the game.
 Full details in the code.
