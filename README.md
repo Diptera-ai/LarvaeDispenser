@@ -94,17 +94,18 @@ For the most accurate results, make sure the sample, and the system itself, are 
    <br>
    <br>
    
-   5. Set the **sensitivity threshold**, and press **Apply New Threshold** to get a new reading of the total updated count. The higher the threshold, more events will be included in the count. Lowering it correctly can remove noise.\
-   In the example below, resetting the threshold to *0.75* updated the count to 918. 
+   5. Set the **sensitivity threshold**, and press **Apply New Threshold** to get a new reading of the total updated count. The higher the threshold, more events will be included in the count. Lowering the sensitivity threshold correctly allows you to remove from the count events that were probably caused by debris.
+      >
+      > A good rule of thumb is to set the sensitivity threshold to the first minima to the right of the significant curve. This, basically, removes events caused by remaining debris.
+   
+      In the example below, resetting the threshold to *0.75* updated the count to 918. 
    
    <br>
    <img src="docs/images/photos/gui/4_sensitivity_th_moved.png?raw=true" height="500" align="center" alt="">
    <br>
    <br>
     
-   >
-   > A good rule of thumb is to set the sensitivity threshold to the first minima to the right of the significant curve. This, basically, removes events caused by remaining debris.
-   
+
    6. Make sure the water level in the bottle does not go below the lower markings, as this will make the count inaccurate and may cause errors.\
    If water level reaches the lower marking, add water to the bottle. 
    > Do not open the bottle when the system is pressurised. See here.
