@@ -10,11 +10,11 @@ The larvae dispenser was developed by [Diptera.ai](https://diptera.ai "Diptera.a
 - [Overview](#Overview)
     - [Machine](#Machine)
     - [Program](#Program)
-- [Protocol](#Protocol)
-    1. [Larvae Preparation](#Larvae-Preparation)
-    2. [System Preparation](#System-Preparation)
-    3. [Aliquot](#Aliquot)
-    3. [Finish](#Finish)
+- [Protocol](#Protocol)  
+    [1. Larvae Preparation](#Larvae-Preparation)  
+    [2. System Preparation](#System-Preparation)  
+    [3. Aliquot](#Aliquot)  
+    [4. Finish](#Finish)  
 - [Q&A](#Q&A)
 
 </details>
@@ -46,18 +46,19 @@ blaaaaaa
 ## Protocol
    
 <br>
+<a name="Larvae-Preparation"></a>
 
 ### 1. **Larvae Preparation**
-<a name="Larvae-Preparation"></a>
+
 For the most accurate results, make sure the sample, and the system itself, are as clean as possible.
 
    1. Separate larvae from debris by using a 30-mesh strainer. Clean the strainer from the debris and repeat a couple of times.
    2. Before putting larvae into the bottle, make sure that the bottle is clean from larvae or debris. 
 
 <br>
+<a name="System-Preparation"></a>
 
 ### 2. **System Preparation**
-<a name="System-Preparation"></a>
    
    1. Add lukewarm (~25C) water with larvae to the bottle. Do not fill the bottle above the marked line.
    
@@ -80,9 +81,9 @@ For the most accurate results, make sure the sample, and the system itself, are 
    
 
 <br>
+<a name="Aliquot"></a>
 
 ### 3. **Aliquot** 
-<a name="Aliquot"></a>
    At This point the bottle should be in place, and pressurised, and the larvae collecting cup empty and ready too - as seen in the image above in the [machine overview](#Machine).
    1. Set the **Target #Larvae**.
    2. Press **Start**. The system will begin running larvae from the bottle to the cup and automatically stop when it reaches the target number of events detected. The **Start** button will show green while the system is running (i.e. counting), and the live count is updated simultaneously.\
@@ -122,9 +123,9 @@ For the most accurate results, make sure the sample, and the system itself, are 
    > Do not open the bottle when the system is pressurised. See [here](#open-bottle).
 
 <br/>
+<a name="Finish"></a>
 
 ### 4. **Finish**
-<a name="Finish"></a>
    It is important to wash the system thoroughly after use.
    1. Open the bottle (remember to depressurise first, see [here](#open-bottle)).
    2. Remove remaining larvae in the bottle, and clean the bottle thoroughly.
