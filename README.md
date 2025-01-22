@@ -46,8 +46,8 @@ The larvae dispenser was developed by [Diptera.ai](https://diptera.ai "Diptera.a
 
 The program allows you to control, monitor, and analyze the aliquoting.  
 The window is split to the control panel on the left, and ifo panel to its right.  
-On the control panel, from top to bottom: input box for target number of larvae, basic operation buttons for start/stop/wash/calibrate, and system pressure switch.  
-On the info panel, first is the live count readout. Below it, framed under the label of 'plot', a display of the day's runs data. To the right of the graph, you can set the sensitivity threshold to account for debris in the water causing count inaccuracies (more information below in the work protocol).  
+- On the control panel, from top to bottom: input box for target number of larvae, basic operation buttons for start/stop/wash/calibrate, and system pressure switch.  
+- On the info panel, first is the live count readout. Below it, framed under the label of 'plot', a display of the day's runs' data. To the right of the graph, you can set the sensitivity threshold to account for debris in the water causing inaccuracies (more information below in the work protocol).  
 
 <br>
 
