@@ -74,14 +74,15 @@ For the most accurate results, make sure the sample, and the system itself, are 
 
 <br>
 
-3. **Aliquoting** \
-   At This point the bottle should be in place, and pressurised, and the larvae collecting cup empty and ready too - similar to the image in the overview.
+3. **Aliquot** \
+   At This point the bottle should be in place, and pressurised, and the larvae collecting cup empty and ready too - as seen in the image above in the [machine overview](#Machine).
    1. Set the **Target #Larvae**.
    2. Press **Start**. The system will begin running larvae from the bottle to the cup and automatically stop when it reaches the target number of events detected. The **Start** button will show green while the system is running (i.e. counting), and the live count is updated simultaneously.\
       You may also press the **Stop** button at any time during the run, if need be. Note, this will stop the current run without option to resume it.
    
    <br>
    <img src="docs/images/photos/gui/2_start.png?raw=true" height="500" align="center" alt="">
+   *<small>image caption</small>*
    <br>
    <br>
    
@@ -108,13 +109,13 @@ For the most accurate results, make sure the sample, and the system itself, are 
 
    6. Make sure the water level in the bottle does not go below the lower markings, as this will make the count inaccurate and may cause errors.\
    If water level reaches the lower marking, add water to the bottle. 
-   > Do not open the bottle when the system is pressurised. See here.
+   > Do not open the bottle when the system is pressurised. See [here](#open-bottle).
 
 <br/>
 
-4. **Finish up**\
+4. **Finish**\
 It is important to wash the system thoroughly after use.
-   1. Open the bottle (remember to depressurise first, see here).
+   1. Open the bottle (remember to depressurise first, see [here](#open-bottle)).
    2. Remove remaining larvae in the bottle, and clean the bottle thoroughly.
    3. Fill the bottle with clean water (or use the second clean water bottle with the blue connectors cap) and close it tightly.
    4. Place an empty collecting cup.
@@ -126,6 +127,7 @@ It is important to wash the system thoroughly after use.
 
 <br/>
 
+<a name="open-bottle"></a>
 - How to open the bottle when the system is pressurised?
    - Switch to **Pressure Off**.
    - Wait 20 seconds or so for pressure to relieve.
