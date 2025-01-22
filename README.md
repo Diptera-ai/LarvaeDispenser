@@ -8,10 +8,14 @@ The larvae dispenser was developed by [Diptera.ai](https://diptera.ai "Diptera.a
 <summary>Table of Contents</summary>
 
 - [Overview](#Overview)
-  - [Machine](#Machine)
-  - [Program](#Program)
+    - [Machine](#Machine)
+    - [Program](#Program)
 - [Protocol](#Protocol)
-- [Notes](#Notes)
+    1. [Larvae Preparation](#Larvae-Preparation)
+    2. [System Preparation](#System-Preparation)
+    3. [Aliquot](#Aliquot)
+    3. [Finish](#Finish)
+- [Q&A](#Q&A)
 
 </details>
 
@@ -43,7 +47,8 @@ blaaaaaa
    
 <br>
 
-### 1. **Larvae preparation**
+### 1. **Larvae Preparation**
+<a name="Larvae-Preparation"></a>
 For the most accurate results, make sure the sample, and the system itself, are as clean as possible.
 
    1. Separate larvae from debris by using a 30-mesh strainer. Clean the strainer from the debris and repeat a couple of times.
@@ -51,7 +56,8 @@ For the most accurate results, make sure the sample, and the system itself, are 
 
 <br>
 
-### 2. **System preparation**
+### 2. **System Preparation**
+<a name="System-Preparation"></a>
    
    1. Add lukewarm (~25C) water with larvae to the bottle. Do not fill the bottle above the marked line.
    
@@ -68,7 +74,7 @@ For the most accurate results, make sure the sample, and the system itself, are 
    
    <br/>
    <img src="docs/images/photos/gui/0_start_up.png?raw=true" height="500" align="center" alt="">
-   <small>program at start-up</small>
+   <small>Program at start-up</small>
    <br/>
    <br/>
    
@@ -76,6 +82,7 @@ For the most accurate results, make sure the sample, and the system itself, are 
 <br>
 
 ### 3. **Aliquot** 
+<a name="Aliquot"></a>
    At This point the bottle should be in place, and pressurised, and the larvae collecting cup empty and ready too - as seen in the image above in the [machine overview](#Machine).
    1. Set the **Target #Larvae**.
    2. Press **Start**. The system will begin running larvae from the bottle to the cup and automatically stop when it reaches the target number of events detected. The **Start** button will show green while the system is running (i.e. counting), and the live count is updated simultaneously.\
@@ -117,6 +124,7 @@ For the most accurate results, make sure the sample, and the system itself, are 
 <br/>
 
 ### 4. **Finish**
+<a name="Finish"></a>
    It is important to wash the system thoroughly after use.
    1. Open the bottle (remember to depressurise first, see [here](#open-bottle)).
    2. Remove remaining larvae in the bottle, and clean the bottle thoroughly.
