@@ -43,44 +43,50 @@ blaaaaaa
    
 <br>
 
-1. **Larvae and system preperation**\
-For the most accurate results, make sure the sample and the system itself are as clean as possible.
+1. **Larvae preparation**\
+For the most accurate results, make sure the sample, and the system itself, are as clean as possible.
 
-   1. Collect larvae using 30-mesh strainer and transfer to a 0.5L tray.
-   2. Use light treatment to move larvae to the edge of the tray so the larvae are separated from debris (remnants of food and eggs).
-   3. Collect larvae that congregate at the edge of the tray and run another light treatment.
-   4. After collecting the majority of the larvae in the tray, kill the rest of the larvae left in the tray (which should be a negligible amount compared to the number of larvae hatched).
-   5. Before putting larvae into the bottle, make sure that the bottle is clean from larvae or debris. Add lukewarm water to the bottle, and then the larvae. Do not fill the bottle above the marked line.
+   1. Separate larvae from debris by using a 30-mesh strainer. Clean the strainer from the debris and repeat a couple of times.
+   2. Before putting larvae into the bottle, make sure that the bottle is clean from larvae or debris. 
+
+<br>
+
+2. **System preparation**
+   
+   1. Add lukewarm (~25C) water with larvae to the bottle. Do not fill the bottle above the marked line.
    
    <br/>
    
    > 
-   > Larvae density should be around 80,000 larvae per liter of water.
+   > Larvae density should be around 10,000 larvae per liter of water.
    
-   6. Place the collecting cup.
-   7. Connect the bottle to the system, make sure it is closed tightly.
+   2. Connect the bottle to the system, make sure it is closed tightly.
+   3. Place the larvae collecting cup.
+   4. With the bottle and cup in place, open the LarvaeDispenser program (double-click the icon on the desktop).\
+   Upon start-up, the bottle will be pressurised and initial calibration will take place - the **calibration** button will show green while calibration is still ongoing. See screenshot below.\
+   During the calibration, the system fills its tubes with water from the bottle. A small amount will be poured to the cup, remember to empty it before starting any count. 
    
+   <br/>
+   <img src="docs/images/photos/gui/0_start_up.png?raw=true" height="500" align="center" alt="">
+   <br/>
+   <br/>
+   
+
 <br>
 
-2. **Aliquoting**
-
-   1. Open the LarvaeDispenser program (double-click the icon on the desktop).\
-   Upon startup, the bottle will be pressurised and initial calibration will take place - the **calibration** buttom will show green while calibration is still ongoing.
-   
-   <br>
-   <img src="docs/images/photos/gui/0_start_up.png?raw=true" height="500" align="center" alt="">
-   <br>
-   <br>
-   
-   2. Set the **Target #Larvae**
-   3. Press **Start**. The system will begin running larvae from the bottle to the cup and automatically stop when it reaches the target number. The **Start** button will show green while the system is running (i.e. counting), and the live count is updated simultaneously. You may also press the **Stop** button at any time during the run, if need be.\
+3. **Aliquoting** \
+   At This point the bottle should be in place, and pressurised, and the larvae collecting cup empty and ready too - similar to the image in the overview.
+   1. Set the **Target #Larvae**.
+   2. Press **Start**. The system will begin running larvae from the bottle to the cup and automatically stop when it reaches the target number of events detected. The **Start** button will show green while the system is running (i.e. counting), and the live count is updated simultaneously.\
+      You may also press the **Stop** button at any time during the run, if need be. Note, this will stop the current run without option to resume it.
    
    <br>
    <img src="docs/images/photos/gui/2_start.png?raw=true" height="500" align="center" alt="">
    <br>
    <br>
    
-   4. Once finished, the plot will be updated with a **histogram of the events' signal magnitudes**. The legend depicts different runs by their initiation timestamps.\
+   3. Once finished, the plot will be updated with a **histogram of the events' signal magnitudes**. A big larva will be detected as a low magnitude event, and vice versa - a small debris will show as a high magnitude event.\
+      The legend depicts different runs by their initiation timestamps.\
    Below, for example, a screenshot of the program after two runs, the most recent one in blue.
    
    <br>
@@ -97,32 +103,36 @@ For the most accurate results, make sure the sample and the system itself are as
    <br>
     
    >
-   > A good rule of thumb is to set the sensitivity threshold to one of the first minimas from the right. This removes noise, basically events caused by remaining debris.
+   > A good rule of thumb is to set the sensitivity threshold to the first minima to the right of the significant curve. This, basically, removes events caused by remaining debris.
    
-   9. Make sure the bottle doesn’t run out of water and does not reach the bottom line marked on the bottle.
-   10. Once you reach the end of the larvae, you can add water to the bottle (see below, in *Notes*, how to open the bottle) which will dilute the density of the larvae but will allow you to continue counting them without reaching the bottom line of the bottle.
+   6. Make sure the water level in the bottle does not go below the lower markings, as this will make the count inaccurate and may cause errors.\
+   If water level reaches the lower marking, add water to the bottle. 
+   > Do not open the bottle when the system is pressurised. See here.
 
 <br/>
 
-3. **Finish up**\
+4. **Finish up**\
 It is important to wash the system thoroughly after use.
-   1. Open the bottle (see below in *Notes*).
+   1. Open the bottle (remember to depressurise first, see here).
    2. Remove remaining larvae in the bottle, and clean the bottle thoroughly.
-   3. Fill the bottle with lukewarm clean water close it tightly like before.
+   3. Fill the bottle with clean water (or use the second clean water bottle with the blue connectors cap) and close it tightly.
    4. Place an empty collecting cup.
-   5. Turn the **Pressure On** and press **Wash**. At the end of day, it is advisable to run **Wash** a couple of times.
+   5. Switch to **Pressure On** and press **Wash**. Repeat wash 3 times.
 
 <br/>
 
-## Notes
+## Q&A
 
 <br/>
 
-- Opening a pressurised bottle:
+- How to open the bottle when the system is pressurised?
    - Switch to **Pressure Off**.
-   - Unscrew - just a little bit - the bottle cap (clear plastic) to relieve the pressure.
+   - Wait 20 seconds or so for pressure to relieve.
+   - Unscrew - just a little - the bottle cap (clear plastic).
    - Pop the connectors cap (black plastic).
-- Detecting a blockage:
-  - When you hear a loud sound from the dispenser it could be one of two things: there is a blockage in the tubes of the dispenser or the pressure went up to 30. 
-  - When the water runs slowly without noise: there is a blockage in the tubes of the dispenser or the cap is not closed tightly enough.
+
+- How to detect and remove a system blockage:
+  - If water runs slowly (droplets instead of a steady stream) while the bottle ok (enough water, closed tightly - both screw cap and connectors cap - and is pressurised), then there may be a blockage in the system tubes.
+  - To remove a blockage, start a count, or a wash operation, if it is not already ongoing. Fill a 50ml syringe with water and connect a tip to it. Connect the tip to the end of the tube (above the larvae collection cup) and press the syringe to run water backwards through the system, to clear the blockage back to the bottle. 
+  - Open the bottle and remove the debris that caused the blockage.
 
