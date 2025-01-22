@@ -68,12 +68,10 @@ For the most accurate results, make sure the sample, and the system itself, are 
 
 ### 2. **System Preparation**
    
-   1. Add lukewarm (~25C) water with larvae to the bottle. Do not fill the bottle above the marked line.
-   
-   <br/>
+   1. Add lukewarm (~25C) water with larvae to the bottle. Do not fill the bottle above the marked line.  
    
    > 
-   > Larvae density should be around 10,000 larvae per liter of water.
+   > Larvae density should be around 10,000 larvae per liter of water.  
    
    2. Connect the bottle to the system, make sure it is closed tightly.
    3. Place the larvae collecting cup.
@@ -99,7 +97,7 @@ For the most accurate results, make sure the sample, and the system itself, are 
    
    <br>
    <img src="docs/images/photos/gui/2_start.png?raw=true" height="500" align="center" alt="">
-   <small>While running a count, the **start** button shows green</small>
+   <small>While running a count, the start button shows green</small>
    <br>
    <br>
    
