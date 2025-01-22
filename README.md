@@ -43,7 +43,7 @@ blaaaaaa
    
 <br>
 
-1. **Larvae preparation**\
+### 1. **Larvae preparation**
 For the most accurate results, make sure the sample, and the system itself, are as clean as possible.
 
    1. Separate larvae from debris by using a 30-mesh strainer. Clean the strainer from the debris and repeat a couple of times.
@@ -51,7 +51,7 @@ For the most accurate results, make sure the sample, and the system itself, are 
 
 <br>
 
-2. **System preparation**
+### 2. **System preparation**
    
    1. Add lukewarm (~25C) water with larvae to the bottle. Do not fill the bottle above the marked line.
    
@@ -68,13 +68,14 @@ For the most accurate results, make sure the sample, and the system itself, are 
    
    <br/>
    <img src="docs/images/photos/gui/0_start_up.png?raw=true" height="500" align="center" alt="">
+   <small>program at start-up</small>
    <br/>
    <br/>
    
 
 <br>
 
-3. **Aliquot** \
+### 3. **Aliquot** 
    At This point the bottle should be in place, and pressurised, and the larvae collecting cup empty and ready too - as seen in the image above in the [machine overview](#Machine).
    1. Set the **Target #Larvae**.
    2. Press **Start**. The system will begin running larvae from the bottle to the cup and automatically stop when it reaches the target number of events detected. The **Start** button will show green while the system is running (i.e. counting), and the live count is updated simultaneously.\
@@ -82,7 +83,7 @@ For the most accurate results, make sure the sample, and the system itself, are 
    
    <br>
    <img src="docs/images/photos/gui/2_start.png?raw=true" height="500" align="center" alt="">
-   *<small>image caption</small>*
+   <small>While running a count, the **start** button shows green</small>
    <br>
    <br>
    
@@ -92,10 +93,11 @@ For the most accurate results, make sure the sample, and the system itself, are 
    
    <br>
    <img src="docs/images/photos/gui/3_finished_count.png?raw=true" height="500" align="center" alt="">
+   <small>Once the count finished, the plot is updated with the events' signal histogram</small>
    <br>
    <br>
    
-   5. Set the **sensitivity threshold**, and press **Apply New Threshold** to get a new reading of the total updated count. The higher the threshold, more events will be included in the count. Lowering the sensitivity threshold correctly allows you to remove from the count events that were probably caused by debris.
+   4. Set the **sensitivity threshold**, and press **Apply New Threshold** to get a new reading of the total updated count. The higher the threshold, more events will be included in the count. Lowering the sensitivity threshold correctly allows you to remove from the count events that were probably caused by debris.
       >
       > A good rule of thumb is to set the sensitivity threshold to the first minima to the right of the significant curve. This, basically, removes events caused by remaining debris.
    
@@ -103,18 +105,19 @@ For the most accurate results, make sure the sample, and the system itself, are 
    
    <br>
    <img src="docs/images/photos/gui/4_sensitivity_th_moved.png?raw=true" height="500" align="center" alt="">
+   <small>Setting a new sensitivity threshold to remove events probably caused by debris</small>
    <br>
    <br>
     
 
-   6. Make sure the water level in the bottle does not go below the lower markings, as this will make the count inaccurate and may cause errors.\
+   5. Make sure the water level in the bottle does not go below the lower markings, as this will make the count inaccurate and may cause errors.\
    If water level reaches the lower marking, add water to the bottle. 
    > Do not open the bottle when the system is pressurised. See [here](#open-bottle).
 
 <br/>
 
-4. **Finish**\
-It is important to wash the system thoroughly after use.
+### 4. **Finish**
+   It is important to wash the system thoroughly after use.
    1. Open the bottle (remember to depressurise first, see [here](#open-bottle)).
    2. Remove remaining larvae in the bottle, and clean the bottle thoroughly.
    3. Fill the bottle with clean water (or use the second clean water bottle with the blue connectors cap) and close it tightly.
@@ -133,7 +136,9 @@ It is important to wash the system thoroughly after use.
    - Wait 20 seconds or so for pressure to relieve.
    - Unscrew - just a little - the bottle cap (clear plastic).
    - Pop the connectors cap (black plastic).
-
+   
+<br/>
+     
 - How to detect and remove a system blockage:
   - If water runs slowly (droplets instead of a steady stream) while the bottle ok (enough water, closed tightly - both screw cap and connectors cap - and is pressurised), then there may be a blockage in the system tubes.
   - To remove a blockage, start a count, or a wash operation, if it is not already ongoing. Fill a 50ml syringe with water and connect a tip to it. Connect the tip to the end of the tube (above the larvae collection cup) and press the syringe to run water backwards through the system, to clear the blockage back to the bottle. 
