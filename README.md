@@ -105,7 +105,7 @@ For the most accurate results, make sure the sample, and the system itself, are 
    <br>
    <br>
    
-   3. Once finished, the plot will be updated with a **histogram of the events' signal magnitudes**. A big larva will be detected as a low magnitude event, and vice versa - a small debris will show as a high magnitude event.\
+   3. Once finished, the plot will be updated with a **histogram of the events' signal magnitudes**. A big larva will be detected as a high magnitude event, and vice versa - a small debris will show as a low magnitude event.\
       The legend depicts different runs by their initiation timestamps.\
    Below, for example, a screenshot of the program after two runs, the most recent one in blue.
    
@@ -117,9 +117,9 @@ For the most accurate results, make sure the sample, and the system itself, are 
    
    4. Set the **sensitivity threshold**, and press **Apply New Threshold** to get a new reading of the total updated count. The higher the threshold, more events will be included in the count. Lowering the sensitivity threshold correctly allows you to remove from the count events that were probably caused by debris.
       >
-      > **A good rule of thumb is to set the sensitivity threshold to the first minima to the right of the significant curve. This, basically, removes events caused by remaining debris.**
+      > **A good rule of thumb is to set the sensitivity threshold to the first minima to the left of the significant curve. This, basically, removes events caused by remaining debris.**
    
-      In the example below, resetting the threshold to *0.75* updated the count to 918. 
+      In the example below, resetting the threshold to *0.25* updated the count to 918. 
    
    <br>
    <img src="docs/images/photos/gui/4_sensitivity_th_moved.png?raw=true" height="500" align="center" alt="">
