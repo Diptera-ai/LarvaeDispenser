@@ -128,6 +128,7 @@ For the most accurate results, make sure the sample, and the system itself, are 
       <br>
       **This step is usually required after the first aliquot with a new bottle**: consecutive runs from the same bottle will most likely share the same sizes distribution and therefore the same debris-larvae minima.
       <br>
+      <br>
       >
       > **A new sensitivity threshold should be set after each bottle replacement. A good rule of thumb is to set the threshold to the first minima to the left of the significant curve. This, basically, removes events caused by debris.**
    
@@ -137,7 +138,7 @@ For the most accurate results, make sure the sample, and the system itself, are 
    <small>Trying a new sensitivity threshold to remove events probably caused by debris</small>
    <br>
    <br>
-   <img src="docs/images/photos/gui/4_sensitivity_th.png?raw=true" height="500" align="center" alt="">
+   <img src="docs/images/photos/gui/4_sensitivity_th_moved.png?raw=true" height="500" align="center" alt="">
    <small>After pressing **Set new threshold**, the newly selected sensitivity threshold is applied and saved for future runs.</small>
    <br>
    <br>
