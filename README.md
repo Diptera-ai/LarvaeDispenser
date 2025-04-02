@@ -91,6 +91,10 @@ At the beginning of a new day, or when starting the program, perform a wash and 
 When loading a new bottle with larvae, it is important to run one aliquot to set the sensitivity threshold according to the larvae population in the new bottle. 
 
 1. Prepare larvae according to [this](#prep-larvae) and fill a new bottle.
+> 
+> **Larvae density should be around 10,000 larvae per 1 liter of water.**
+
+
 2. Connect the new bottle to the system: 
 - If another bottle is already connected, remember to turn off the pressure before disconnecting it. 
 - Connect the new bottle. Make sure it is closed tightly. Turn the pressure on.
@@ -197,12 +201,9 @@ It is important to wash the system thoroughly after use.
 - How to prepare larvae for aliquoting?
     - For the most accurate results, make sure the sample is as clean as possible. Separate larvae from debris by using a 30-mesh strainer. Clean the strainer from the debris and repeat a couple of times.
     - Before putting larvae into the bottle, make sure that the bottle is clean from larvae or debris.
-    - Add lukewarm (~25C) water with larvae to the bottle. Do not fill the bottle above the marked line.\
-  <br/>
-    > 
-    > **Larvae density should be around 10,000 larvae per 1 liter of water.**
-
-<br/>
+    - Add lukewarm (~25C) water with larvae to the bottle.  
+    - Do not fill the bottle above the marked line.
+    - Larvae density should be around 10,000 larvae per 1 liter of water.
 
 <a name="open-bottle"></a>
 - How to open the bottle when the system is pressurised?
