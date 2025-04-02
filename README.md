@@ -85,6 +85,7 @@ At the beginning of a new day, or when starting the program, perform a wash and 
 <br/>
 <br/>
 
+
 <a name="NewBottle"></a>
 ## 2. **New Bottle**
 
@@ -152,6 +153,8 @@ Pressing **Set new threshold** will apply the change and keep that threshold for
 <br>
 
 - More examples for sensitivity threshold applications can be found below, [here](#sens-th-example-1).
+
+<br/>
 
 <a name="Aliquot"></a>
 ## 3. **Aliquot** 

@@ -1,8 +1,0 @@
-Reading https://superuser.com/questions/689056/how-can-i-convert-github-flavored-markdown-to-a-pdf has led us to use the Markdown Viewer extension for Chrome.
-Brief how-to:
-
-On Ubunto, install the Markdown Viewer extension on Chrome.
-Click the extension -> Advanced Options -> Allow access to file urls.
-In the extension's page, add site access to the readme on github (e.g. https://github.com/Diptera-ai/LarvaeDispenser/blob/main/README.md )
-Then simply drag the README.md *file* from the repo's local directory to Chrome.
-Save as pdf, with no headers etc'.
