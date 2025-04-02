@@ -211,13 +211,14 @@ It is important to wash the system thoroughly after use.
    - Wait 10 seconds or so for pressure to relieve.
    - Pop the connectors cap (black plastic).
    - (if needed to fill/empty the bottle) unscrew the bottle cap (clear plastic).
-   
-<br/>
-     
+
+ 
 - How to detect and remove a system blockage:
   - If water runs slowly (droplets instead of a steady stream) while the bottle is ok (there's enough water, caps are closed tightly and pressure is on), then there might be a blockage in the system tubes.
   - To remove a blockage, start a count, or a wash operation, if it is not already ongoing. Fill a 50ml syringe with water and connect a tip to it. Connect the tip to the end of the tube (above the larvae collection cup) and press the syringe to run water backwards through the system, to clear the blockage back to the bottle. 
   - Open the bottle (see above how to open a pressurised bottle) and remove the debris that caused the blockage.
+
+<br/>
 
 <a name="sens-th-example-1"></a>
 ### Sensitivity Thresholds Examples
