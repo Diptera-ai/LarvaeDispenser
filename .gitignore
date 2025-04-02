@@ -1,6 +1,5 @@
-img_basics.py
-docs/images/temp
-docs/images/temp/*
+./temp
+./temp/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

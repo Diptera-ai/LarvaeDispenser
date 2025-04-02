@@ -81,7 +81,7 @@ At the beginning of a new day, or when starting the program, perform a wash and 
 
 <br/>
 <img src="docs/images/gui/2_cal.png?raw=true" height="500" align="center" alt="">
-<small>It is necessary to do a calibration at the start of a new day. When pressing **Calibrate**, the program will remind you to wash with clean water before proceeding.</small>
+<small>It is necessary to do a calibration at the start of a new day. When pressing Calibrate, the program will remind you to wash with clean water before proceeding.</small>
 <br/>
 <br/>
 
@@ -97,20 +97,22 @@ When loading a new bottle with larvae, it is important to run one aliquot to set
 3. Place a clean collecting cup.
 4. Press **Wash**. The purpose of this wash is to fill the tubes with larvae water and rid of any bubbles. 
 - Once you see larvae in the cup, you can stop the wash.
+- Empty the cup.
 5. Set the **Target #Larvae**.  
    For the purpose of setting the sensitivity threshold, it is recommended to aliquot at least 500 larvae.
 6. Press **Start**. \
-   The system will begin running larvae from the bottle to the cup and automatically stop when it reaches the target number of events detected. The **Start** button will show green while the system is running (i.e. counting), and the live count is updated simultaneously.\
+   The system will begin running larvae from the bottle to the cup and automatically stop when it reaches the target number of events detected. The **Start** button will show green while the system is running (i.e. counting), and the live count is updated simultaneously.
 
 <br>
 <img src="docs/images/gui/3_start.png?raw=true" height="500" align="center" alt="">
-<small>While running a count, the start button shows green</small>
+<small>While running a count, the start button shows green.</small>
 <br>
 <br>
 
 7. Once finished, the plot will be updated with a **histogram of the events' signal magnitudes**. A big larva will be detected as a high magnitude event, and vice versa - small debris will show as low magnitude events.\
-  The legend depicts different runs by their initiation timestamps.\
-Below, for example, a screenshot of the program after the first run.
+   The legend depicts different runs by their initiation timestamps.
+   The most recent measurement is the one in thick blue line, previous runs will appear in dashed lines. \
+   Below, for example, a screenshot of the program after the first run.
 
 <br>
 <img src="docs/images/gui/4_finished_count.png?raw=true" height="500" align="center" alt="">
@@ -126,12 +128,15 @@ In the example below, resetting the sensitivity threshold to *0.071* updated the
 Pressing **Set new threshold** will apply the change and keep that threshold for later runs too (now the line appears black).
 
 - This step is usually required only after the **first** aliquot with a new bottle. Consecutive aliquots from the same bottle typically share the same sizes distribution and therefore the same debris-larvae minima.
+- Note that the total number of larvae for this cup is jeopardised. In the example below, you can expect there to be only 795 larvae in the cup, not 1000 as the given target. This is because, of course, the sensitivity threshold was set to 0.0 for this measurement - in the next ones, as described [here](#Aliquot), that is not the case.
+
 <br>
-<br>
+
 >
 > **A new sensitivity threshold should be set after each bottle replacement. A good rule of thumb is to set the threshold to the first minima to the left of the significant curve. This, basically, removes events caused by debris.**
- 
+
 <br>
+
 <a name="sens-th-example-0"></a>
 <img src="docs/images/gui/5_sensitivity_th_moved_red.png?raw=true" height="500" align="center" alt="">
 <small>Trying a new sensitivity threshold to remove events probably caused by debris</small>
@@ -150,7 +155,8 @@ In a consecutive run from the same bottle, the count is updated according to the
 
 1. Set the **Target #Larvae**. \
 It is recommended to aliquot at least 250 larvae every time.
-2. Press **Start**. \
+2. Place an empty collecting cup.
+3. Press **Start**. \
 The system will begin an aliquot, running larvae from the bottle to the cup and automatically stop when it reaches the target number of events detected - AFTER applying the sensitivity threshold. I.E., smaller events than the threshold will be ignored.
 - You may press the **Stop** button at any time during the run, if need be. Note, this will stop the ongoing aliquot without an option to resume it.
 - Repeat.
@@ -161,7 +167,7 @@ The system will begin an aliquot, running larvae from the bottle to the cup and 
 <br>
 <br>
 
-3. Make sure the water level in the bottle does not go below the lower markings, as this will make the count inaccurate and may cause errors.\
+4. Make sure the water level in the bottle does not go below the lower markings, as this will make the count inaccurate and may cause errors.\
 If water level reaches the lower marking, add water to the bottle. 
 > **Do not open the bottle when the system is pressurised. See [here](#open-bottle).**
 
@@ -191,11 +197,11 @@ It is important to wash the system thoroughly after use.
 - How to prepare larvae for aliquoting?
     - For the most accurate results, make sure the sample is as clean as possible. Separate larvae from debris by using a 30-mesh strainer. Clean the strainer from the debris and repeat a couple of times.
     - Before putting larvae into the bottle, make sure that the bottle is clean from larvae or debris.
-    - Add lukewarm (~25C) water with larvae to the bottle. Do not fill the bottle above the marked line.  
-    
+    - Add lukewarm (~25C) water with larvae to the bottle. Do not fill the bottle above the marked line.\
+  <br/>
     > 
-    > **Larvae density should be around 10,000 larvae per 1 liter of water.**  
-  
+    > **Larvae density should be around 10,000 larvae per 1 liter of water.**
+
 <br/>
 
 <a name="open-bottle"></a>
