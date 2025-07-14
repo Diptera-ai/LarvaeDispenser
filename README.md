@@ -16,6 +16,9 @@ The larvae dispenser was developed by [Diptera.ai](https://diptera.ai "Diptera.a
     [3. Aliquot](#Aliquot)  
     [4. Finish](#Finish)  
 - [Q&A](#Q&A)
+    - [Larvae preperation](#prep-larvae)
+    - [Opening a pressurised bottle](#open-bottle)
+    - [Blockage detection and clearing](#blockage)
 
 </details>
 
@@ -215,11 +218,18 @@ It is important to wash the system thoroughly after use.
    - Pop the connectors cap (black plastic).
    - (if needed to fill/empty the bottle) unscrew the bottle cap (clear plastic).
 
- 
-- How to detect and remove a system blockage:
-  - If water runs slowly (droplets instead of a steady stream) while the bottle is ok (there's enough water, caps are closed tightly and pressure is on), then there might be a blockage in the system tubes.
-  - To remove a blockage, start a count, or a wash operation, if it is not already ongoing. Fill a 50ml syringe with water and connect a tip to it. Connect the tip to the end of the tube (above the larvae collection cup) and press the syringe to run water backwards through the system, to clear the blockage back to the bottle. 
-  - Open the bottle (see above how to open a pressurised bottle) and remove the debris that caused the blockage.
+<a name="blockage"></a>
+- How to detect and clear a blockage in the Larvae Dispenser?
+  - Detecting a blockage: \
+  If a significant decrease or complete stop in flow is observed during larvae counting, it may indicate a blockage in the tubing.
+  - Preperations: \
+  There should be a syringe with flexible tube and pipette tip at its end. Fill it with clean water. Make sure a larvae bottle is connected to the machine.
+  - Flushing the blockage: 
+    1. Insert the tip of the syringe into the exit tube of the dispenser. It should be right above the collection cup. 
+    2. Flush: Press the *Wash* button in the program. After you hear a click sound, gently push water through the tubing by pressing the syringe plunger slowly.
+    3. Check flow: Wait 1 minute or until you hear a second click sound. Then remove the syringe and place a collection cup. Press the *Wash* button in the program and observe whether normal flow has resumed.
+    4. Repeat if necessary: If the flow has not returned to normal, repeat the flushing procedure using a slightly greater amount of water.
+  
 
 <br/>
 
