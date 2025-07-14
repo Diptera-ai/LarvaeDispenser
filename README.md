@@ -219,15 +219,15 @@ It is important to wash the system thoroughly after use.
    - (if needed to fill/empty the bottle) unscrew the bottle cap (clear plastic).
 
 <a name="blockage"></a>
-- How to detect and clear a blockage in the Larvae Dispenser?
-  - Detecting a blockage: \
+- How to detect and clear a **blockage** in the Larvae Dispenser?
+  - **Detecting** a blockage: \
   If a significant decrease or complete stop in flow is observed during larvae counting, it may indicate a blockage in the tubing.
-  - Preperations: \
+  - **Preperations**: \
   There should be a syringe with flexible tube and pipette tip at its end. Fill it with clean water. Make sure a larvae bottle is connected to the machine.
-  - Flushing the blockage: 
+  - **Flushing** the blockage: 
     1. Insert the tip of the syringe into the exit tube of the dispenser. It should be right above the collection cup. 
-    2. Flush: Press the *Wash* button in the program. After you hear a click sound, gently push water through the tubing by pressing the syringe plunger slowly.
-    3. Check flow: Wait 1 minute or until you hear a second click sound. Then remove the syringe and place a collection cup. Press the *Wash* button in the program and observe whether normal flow has resumed.
+    2. Flush: Press the **Wash** button in the program. After you hear a click sound, gently push water through the tubing by pressing the syringe plunger slowly.
+    3. Check flow: Wait 1 minute or until you hear a second click sound. Then remove the syringe and place a collection cup. Press the **Wash** button in the program and observe whether normal flow has resumed.
     4. Repeat if necessary: If the flow has not returned to normal, repeat the flushing procedure using a slightly greater amount of water.
   
 
