@@ -1,4 +1,4 @@
-# Larvae Dispenser &emsp;<sub><sup>[v 1.2]</sup></sub> <img src="docs/images/logo/Diptera_logo_small__raised.png?raw=true" height="50" align="right" alt="">
+# Larvae Dispenser &emsp;<sub><sup>[v 1.2]</sup></sub> <img src="docs/images/logo/Diptera_logo_small__raised.png?raw=true" height="80" align="right" alt="">
  |Version:|[1.2](https://github.com/Diptera-ai/LarvaeDispenser/tree/main)|[2.0](https://github.com/Diptera-ai/LarvaeDispenser/tree/v2)|
 |---|---|---|
 
