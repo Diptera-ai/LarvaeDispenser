@@ -1,5 +1,9 @@
-# Larvae Dispenser <img src="docs/images/logo/Diptera_logo_small.png?raw=true" height="50" align="right" alt="">
+# Larvae Dispenser &emsp;<sub><sup>[v 2.0]</sup></sub> <img src="docs/images/logo/Diptera_logo_small.png?raw=true" height="50" align="right" alt="">
  
+|Version:|[1.2](https://github.com/Diptera-ai/LarvaeDispenser/tree/main)|[2.0](https://github.com/Diptera-ai/LarvaeDispenser/tree/v2)|
+|---|---|---|
+<br/>
+
 The larvae dispenser was developed by [Diptera.ai](https://diptera.ai "Diptera.ai's Homepage") to achieve fast and reliable mosquito larvae aliqouting.
 
 <br/>
