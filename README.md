@@ -65,24 +65,22 @@ The window is split to the control panel on the left, and info panel to its righ
 <a name="Protocol"></a>
 # Protocol
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
 
 <br>
 
 
 <a name="NewDay"></a>
 ## 1. **New Day / Program Startup**
-
-At the beginning of a new day, or when starting the program, perform a wash and calibration with clean water. 
-
-1. Connect a bottle with **clean** water, make sure it is closed tightly. 
+> [!NOTE]
+> Perform a wash and calibration, with clean water, at the beginng of a new day or after reboot
+1. Connect a blue bottle with **clean** water, make sure it is closed tightly. 
 2. Place a collecting cup.
-3. Start the LarvaeDispenser program (double-click the icon on the desktop).
-- Upon startup, the program tries to update itself so make sure there is **internet connection**.  
-- Once up and running, the bottle will be pressurised. 
+3. Make sure pressure is on, and stable ('ok').
 4. Press **Wash**. 
 4. Press **Calibrate**.
+
+> [!WARNING]
+> Do not open a pressurised bottle. 
    
 <br/>
 <img src="docs/images/gui/1_start_up.png?raw=true" height="500" align="center" alt="">
@@ -99,12 +97,12 @@ At the beginning of a new day, or when starting the program, perform a wash and 
 
 <a name="NewBottle"></a>
 ## 2. **New Bottle**
-
-When loading a new bottle with larvae, it is important to run one aliquot to set the sensitivity threshold according to the larvae population in the new bottle. 
+> [!IMPORTANT]
+> When loading a new bottle with larvae, run an initial aliquot for the purpose of setting the sensitivity threshold - this, essentially, allows to ignore events caused by debris. 
 
 1. Prepare larvae according to [this](#prep-larvae) and fill a new bottle.
-> 
-> **Larvae density should be around 10,000 larvae per 1 liter of water.**
+> [!Tip]
+> Larvae density should be in the range of 4000-8000 larvae per bottle (0.5L water).
 
 
 2. Connect the new bottle to the system: 
@@ -113,11 +111,11 @@ When loading a new bottle with larvae, it is important to run one aliquot to set
 3. Place a clean collecting cup.
 4. Press **Wash**. The purpose of this wash is to fill the tubes with larvae water and rid of any bubbles. 
 - Once you see larvae in the cup, you can stop the wash.
-- Empty the cup.
+- Empty the cup or place a new one.
 5. Set the **Target #Larvae**.  
-   For the purpose of setting the sensitivity threshold, it is recommended to aliquot at least 500 larvae.
+   For the purpose of setting the sensitivity threshold, assuming you have a full bottle, it is recommended to aliquot at least 1000 larvae.
 6. Press **Start**. \
-   The system will begin running larvae from the bottle to the cup and automatically stop when it reaches the target number of events detected. The **Start** button will show green while the system is running (i.e. counting), and the live count is updated simultaneously.
+   The system will begin running larvae from the bottle to the cup and automatically stop when it reaches the target number of events detected. The **Start** button will show green while the system is running (i.e. counting), and a live count is updated simultaneously.
 
 <br>
 <img src="docs/images/gui/3_start.png?raw=true" height="500" align="center" alt="">
@@ -137,7 +135,7 @@ When loading a new bottle with larvae, it is important to run one aliquot to set
 <br>
 
 8. Set the **sensitivity threshold**, and press **Set new threshold** to get a new reading of the total updated count. 
-- The sensitivity threshold is 0.0 by default. This means that all events are counted as larvae. However, typically, larvae water contain certain amounts of debris smaller than the larvae. This debris will show in the histogram as noise, or a (small) peak of the curve on the leftmost side of the histogram.  \
+- The sensitivity threshold is 0.0 by default. This means that all events are counted as larvae. However, typically, larvae water contain some debris smaller than the larvae. This debris will show in the histogram as noise, or a (small) peak of the curve on the leftmost side of the histogram.  \
 Examining the histogram and setting the sensitivity threshold to the first minima to the left of the significant curve, let's call it the debris-larvae minima, allows you to remove from the count events that were probably caused by debris.
 - Using the horizontal scale below the plot, you may test new sensitivity thresholds (marked by a red vertical line) and see how applying it affects the count. 
 In the example below, resetting the sensitivity threshold to *0.071* updated the count to 795. \
@@ -237,12 +235,9 @@ It is important to wash the system thoroughly after use.
     2. Flush: Press the **Wash** button in the program. After you hear a click sound, gently push water through the tubing by pressing the syringe plunger slowly.
     3. Check flow: Wait 1 minute or until you hear a second click sound. Then remove the syringe and place a collection cup. Press the **Wash** button in the program and observe whether normal flow has resumed.
     4. Repeat if necessary: If the flow has not returned to normal, repeat the flushing procedure using a slightly greater amount of water.
-  
-<img src="docs/images/photos/machine_v2__blockage.gif?raw=true" height="500" align="center" alt="">
-<small>blockage gif 1</small>
 
 ![](docs/images/photos/machine_v2__blockage.gif)
-<small>blockage gif 2</small>
+<small>Manual blockage removal using a syringe</small>
 
 
 <br/>
