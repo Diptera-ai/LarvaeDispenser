@@ -6,6 +6,8 @@
 
 The larvae dispenser was developed by [Diptera.ai](https://diptera.ai "Diptera.ai's Homepage") to achieve fast and reliable mosquito larvae aliqouting.
 
+This product is currently under developement.
+
 <br/>
 
 <details open="open">
@@ -36,15 +38,14 @@ The larvae dispenser was developed by [Diptera.ai](https://diptera.ai "Diptera.a
 <a name="Machine"></a>
 ### Machine
 
-<img src="docs/images/photos/machine_v1_annotated.jpeg?raw=true" height="500" align="center" alt="">
+<img src="docs/images/photos/machine_v2_annotated.jpeg?raw=true" height="500" align="center" alt="">
 
 1. Larvae collecting cup
-2. Larvae water bottle
-3. Bottle cap
-4. Bottle connectors cap
-5. Computer connections: HDMI, USB, LAN
-6. Power/computer box
-7. Power cable
+2. Outlet
+3. Pressure release valve
+4. Bottle plug
+5. Larvae bottle (orange)
+6. Water bottle (blue)
 
 
 <br>
@@ -63,7 +64,10 @@ The window is split to the control panel on the left, and info panel to its righ
 
 <a name="Protocol"></a>
 # Protocol
-   
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
 <br>
 
 
@@ -234,6 +238,12 @@ It is important to wash the system thoroughly after use.
     3. Check flow: Wait 1 minute or until you hear a second click sound. Then remove the syringe and place a collection cup. Press the **Wash** button in the program and observe whether normal flow has resumed.
     4. Repeat if necessary: If the flow has not returned to normal, repeat the flushing procedure using a slightly greater amount of water.
   
+<img src="docs/images/photos/machine_v2__blockage.gif?raw=true" height="500" align="center" alt="">
+<small>blockage gif 1</small>
+
+![](docs/images/photos/machine_v2__blockage.gif)
+<small>blockage gif 2</small>
+
 
 <br/>
 
