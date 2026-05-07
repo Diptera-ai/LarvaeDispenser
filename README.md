@@ -16,6 +16,7 @@ This product is currently under development.
 - [Overview](#Overview)
     - [Components](#Components)
     - [Software](#Software)
+    - [Basic Setup](#BasicSetup)
 - [Protocol](#Protocol)  
     [1. Startup](#Startup)  
     [2. New Bottle](#NewBottle)  
@@ -83,7 +84,7 @@ The window is split to the control panel on the left, and info panel to its righ
 <a name="Startup"></a>
 ## 1. **Startup**
 > [!NOTE]
-> Perform a wash and calibration, with clean water, at the beginng of a new day or after reboot
+> Perform a wash and calibration, with clean water, to 'zero' the system. This should be done at the beginng of a new day, or after reboot.
 
 1. Connect a blue bottle with **clean** water, make sure it is closed tightly. 
 2. Place an output cup.
@@ -91,17 +92,17 @@ The window is split to the control panel on the left, and info panel to its righ
 4. Press **Wash**. 
 4. Press **Calibrate**. 
 
-Note that, as can be seen in the [screenshot above](#fig0), the Start button will appear gray at startup, indicating a calibration is required.
+Note that, as can be seen in the [screenshot above](#fig0), at startup the Start button will appear gray, indicating a calibration is required.
 > [!CAUTION]
 > Do not open a pressurised bottle. see see [here](#open-bottle)).
 
 <a name="NewBottle"></a>
 ## 2. **New Bottle**
-> [!IMPORTANT]
+> [!NOTE]
 > When loading a new bottle with larvae, run an initial aliquot for the purpose of setting the sensitivity threshold - this, essentially, allows to ignore events that were probably caused by debris. 
 
 1. Prepare larvae according to [this](#prep-larvae) and fill a new bottle.
-> [!Tip]
+> [!IMPORTANT]
 > Larvae density should be in the range of 4000-8000 larvae per bottle (0.5L water).
 
 
@@ -110,32 +111,31 @@ Note that, as can be seen in the [screenshot above](#fig0), the Start button wil
 - Connect the new bottle. Make sure it is closed tightly. Turn the pressure on.
 3. Place a clean output cup.
 4. Press **Wash**. The purpose of this wash is to fill the tubes with larvae water and rid of any bubbles. 
-- Once you see larvae in the cup, you can stop the wash.
+- Once you see larvae in the cup, you may stop the wash.
 - Empty the cup or place a new one.
 5. Set the **Target #Larvae**.  
    For the purpose of setting the sensitivity threshold, assuming you have a full bottle, it is recommended to aliquot at least 1000 larvae.
 6. Press **Start**. \
    The system will begin running larvae from the bottle to the cup and automatically stop when it reaches the target number of events detected. The **Start** button will show green while the system is running (i.e. counting), and a live count is updated simultaneously.
+> [!NOTE]
+> If an aliqout fails to complete within 5 minutes, a timeout is triggered and the counting will stop.
 
 <br>
 
 ![](docs/images/gui_v2/initial_count.png)
 <small>When counting, the start button shows green and the Events Count is updated live.</small>
-<br>
+
 <br>
 
-> [!WARNING]
-> If an aliqout fails to complete within 5 minutes, a timeout is triggered and the counting will stop.
-
-7. Once finished, the plot will be updated with a **histogram of the events' signal magnitudes**. A big larva will be detected as a high magnitude event, and vice versa - small debris will show as low magnitude events.\
+7. Once finished, the plot will be updated with a **histogram of the events' signal magnitudes**. Big larvae will be detected as high magnitude events, and vice versa - small debris will show as low magnitude events.\
    The legend depicts different runs by their initiation timestamps.
    The most recent measurement is the one in thick blue line, previous runs will appear in dashed lines. \
    Below, for example, a screenshot of the program after the first run.
 
 <br>
 
-![](docs/images/gui_v2/initia_count_finished.png)
-<small>Once the count finished, the plot is updated with the events' signal histogram</small>
+![](docs/images/gui_v2/initial_count_finished.png)
+<small>Once the count finished, the plot is updated with the events' signal histogram.</small>
 <br>
 <br>
 
@@ -156,7 +156,7 @@ Pressing **Set new threshold** will apply the change and keep that threshold for
 
 <a name="sens-th-example-0"></a>
 ![](docs/images/gui_v2/sens_th_0.png)
-<small>Trying a new sensitivity threshold to remove events probably caused by debris</small>
+<small>Trying a new sensitivity threshold to remove events probably caused by debris.</small>
 <br>
 <br>
 ![](docs/images/gui_v2/sens_th_1.png)
