@@ -26,6 +26,7 @@ This product is currently under development.
     - [Larvae preperation](#prep-larvae)
     - [Opening a pressurised bottle](#open-bottle)
     - [Blockage detection and clearing](#blockage)
+    - [Why WiFi?](#wifi)
 
 </details>
 
@@ -42,7 +43,7 @@ This product is currently under development.
 2. Outlet tube
 3. Pressure release valve
 4. Bottle plug
-5. Input bottle - larvae water (orange)
+5. Input bottle - larvae in water (orange + black)
 6. Input bottle - clean water (orange + blue)
 
 <br>
@@ -63,11 +64,12 @@ The window is split to the control panel on the left, and info panel to its righ
 - Connect a mouse and a monitor to the Larvae Dispenser.
 - Connect to your WiFi[*](#wifi).
 - Set the pressure release valve:
-  1. With **Pressure Off**, place a clean water bottle (blue), make sure the bottle cap, and then the bottle plug on top, are closed tightly.
+  1. With **Pressure Off**, place a larvae bottle (black) filled **with clean water only**, make sure the bottle cap, and then the bottle plug on top, are closed tightly.
   2. Place a new output cup.
   3. Make sure the valve is closed.
   4. Turn **Pressure On**.
-  5. Very slowly, open the valve. Stop as soon as you hear/see bubbles in the bottle, and pressure is resting on 'OK'. The pump should not be loud.
+  5. Very slowly, open the valve. Stop as soon as you hear/see bubbles in the bottle: Bubbling should be continuous and not sporadic, pressure should be resting on 'OK', and the pump should not be loud.
+- If the system was powered off, to turn it back on you will need to unplug it from the socket and plug it back in.
 
 > [!TIP]
 > If the amount of water in consequtive aliqoutes (of the same size) is rising, it could indicate there is a problem with the pressure or bubbling of the bottle. 
@@ -94,12 +96,12 @@ The window is split to the control panel on the left, and info panel to its righ
 
 Note that, as can be seen in the [screenshot above](#fig0), at startup the Start button will appear gray, indicating a calibration is required.
 > [!CAUTION]
-> Do not open a pressurised bottle. see see [here](#open-bottle)).
+> Do not open a pressurised bottle. see [here](#open-bottle)).
 
 <a name="NewBottle"></a>
 ## 2. **New Bottle**
 > [!NOTE]
-> When loading a new bottle with larvae, run an initial aliquot for the purpose of setting the sensitivity threshold - this, essentially, allows to ignore events that were probably caused by debris. 
+> When loading a new bottle with larvae, run an initial aliquot for the purpose of setting the sensitivity threshold - this, essentially, allows to ignore events that were probably caused by debris or other small particles. 
 
 1. Prepare larvae according to [this](#prep-larvae) and fill a new bottle.
 > [!IMPORTANT]
@@ -127,7 +129,7 @@ Note that, as can be seen in the [screenshot above](#fig0), at startup the Start
 
 <br>
 
-7. Once finished, the plot will be updated with a **histogram of the events' signal magnitudes**. Big larvae will be detected as high magnitude events, and vice versa - small debris will show as low magnitude events.\
+7. Once finished, the plot will be updated with a **histogram of the events' signal magnitudes**. Big larvae will be detected as high magnitude events, and vice versa - small particles will show as low magnitude events.\
    The legend depicts different runs by their initiation timestamps.
    The most recent measurement is the one in thick blue line, previous runs will appear in dashed lines. \
    Below, for example, a screenshot of the program after the first run.
@@ -140,23 +142,23 @@ Note that, as can be seen in the [screenshot above](#fig0), at startup the Start
 <br>
 
 8. Set the **sensitivity threshold**, and press **Set new threshold** to get a new reading of the total updated count. 
-- The sensitivity threshold is 0.0 by default. This means that all events are counted as larvae. However, typically, larvae water contain some debris smaller than the larvae. This debris will show in the histogram as noise, or a (small) peak of the curve on the leftmost side of the histogram.  \
-Examining the histogram and setting the sensitivity threshold to the first minima to the left of the significant curve, let's call it the **debris-larvae minima**, allows you to remove from the count events that were probably caused by debris.
+- The sensitivity threshold is 0.0 by default. This means that all events are counted as larvae. However, typically, larvae water contain some particles smaller than the larvae. These particles will show in the histogram as noise, or a (small) peak of the curve on the leftmost side of the histogram.  \
+Examining the histogram and setting the sensitivity threshold to the first minima to the left of the main peak on the right hand side, let's call it the **debris-larvae minima**, allows you to remove from the count events that were probably caused by debris and small particles.
 - Using the horizontal scale below the plot, you may test new sensitivity thresholds (marked by a red vertical line) and see how applying it affects the count. 
 In the example below, resetting the sensitivity threshold to *0.118* updated the count to 3841 events. \
 Pressing **Set new threshold** will apply the change and keep that threshold for later runs too (now the line appears black).
 
-- This step is usually required only after the **first** aliquot with a new bottle. Consecutive aliquots from the same bottle typically share the same sizes distribution and therefore the same debris-larvae minima.
+- This step is usually required only after the **first** aliquot with a new bottle. Consecutive aliquots from the same bottle typically share the same size distribution and therefore the same debris-larvae minima.
 - Note that the total number of larvae for this cup is jeopardised. In the example below, you can expect there to be only 3841 larvae in the cup, not 4250 as the given target. This is because, of course, the sensitivity threshold was set to 0.0 for this measurement.
 
 <br>
 
 > [!NOTE]
-> Set the **sensitivity threshold** to the first minima to the left of the significant curve, and press **Set new threshold**.
+> Set the **sensitivity threshold** to the first minima to the left of the main peak on the right, and press **Set new threshold**.
 
 <a name="sens-th-example-0"></a>
 ![](docs/images/gui_v2/sens_th_0.png)
-<small>Trying a new sensitivity threshold to remove events probably caused by debris.</small>
+<small>Trying a new sensitivity threshold to remove events caused by small particles.</small>
 <br>
 <br>
 ![](docs/images/gui_v2/sens_th_1.png)
@@ -193,7 +195,7 @@ If water level reaches the lower marking, add water to the bottle.
 > Wash the system thoroughly after use. 
 
 1. Open the bottle (remember to depressurise first, see [here](#open-bottle)).
-2. Remove remaining larvae in the bottle, and clean the bottle thoroughly.
+2. Remove remaining larvae in the bottle, and clean the bottle thoroughly. The metallic tubes of the larvae bottle should be washed (inside and out) with a washer bottle.
 3. Fill the bottle with clean water (or use the second clean water bottle with the blue connectors cap) and close it tightly.
 4. Place an output cup.
 5. Switch **Pressure On** and press **Wash**/**Pressure Wash**. Repeat wash 3 times.
@@ -209,10 +211,10 @@ If water level reaches the lower marking, add water to the bottle.
 
 <a name="prep-larvae"></a>
 - How to prepare larvae for aliquoting?
-    - For the most accurate results, make sure the sample is as clean as possible. Separate larvae from debris by using a 50-mesh strainer. Clean the strainer from the debris and repeat a couple of times.
-    - Before putting larvae into the bottle, make sure that the bottle is clean from larvae or debris.
+    - For the most accurate results, make sure the sample is as clean as possible. Separate larvae from smaller particles by using a 50-mesh strainer. Clean the strainer from debris and repeat a couple of times.
+    - Before putting larvae into the bottle, make sure that the bottle is clean from larvae, debris or other small particles.
     - Add lukewarm (~25C) water with larvae to the bottle.  
-    - Do not fill the bottle above the marked line.
+    - Do not fill the bottle above the 450ml line.
     - Larvae density should be between 4,000 to 8,000 larvae per bottle i.e. 0.5L of water.
 
 <a name="open-bottle"></a>
@@ -226,9 +228,11 @@ If water level reaches the lower marking, add water to the bottle.
   - **Detecting** a blockage: \
   If a significant decrease or complete stop in flow is observed during larvae counting, it may indicate a blockage in the tubing.
   - **Preperations**:
-    1. There should be a syringe with flexible tube that can replace the outlet tube (plastic and brass). Fill it with clean water. 
-    2. Replace the regular outlet tube with the syringe, see GIF below.
-    3. Replace the input bottle with a new larvae bottle (orange cap, not blue) filled with clean water.
+    1. If the machine is still counting, stop it. 
+    2. Turn pressure off.
+    3. There should be a syringe with flexible tube that can replace the outlet tube (plastic and brass). Fill it with clean water. 
+    4. Replace the regular outlet tube with the syringe, see GIF below.
+    5. Replace the input bottle with a new larvae bottle (orange+black cap, not blue) filled with clean water.
   - **Flushing** the blockage: 
     1. Flush: Press the **Wash** button in the program. After you hear a click sound, gently push water through the tubing by pressing the syringe plunger slowly.
     2. Check flow: Wait 1 minute or until you hear a second click sound. Then remove the syringe and place an output cup. Press the **Wash** button in the program and observe whether normal flow has resumed.
@@ -241,7 +245,7 @@ If water level reaches the lower marking, add water to the bottle.
 
 <a name="wifi"></a>
 - Why WiFi?
-   - With internet access, the Larvae Dispencer periodically receives software updates and sends system reports to Diptera.ai.
+   - With internet access, the Larvae Dispencer can periodically receive software updates and send system reports to Diptera.ai.
    - If need be, Diptera.ai can remotely configure advanced parameters or help diagnose errors.
 
 
